@@ -1,0 +1,456 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image/image5.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+nav{
+    position: fixed;
+}
+.navbar-brand {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.menu:hover{
+    color: rgb(255, 195, 43);
+}
+.active .nav-link{
+    color: rgb(255, 195, 43);
+}
+.menu-right-btn{
+    padding: 5px 30px 4px 30px;
+    border-radius: 4px;
+    border: 3px solid rgb(255, 195, 43);
+    color: white;
+}
+.menu-right-btn:hover{
+    background-color:  rgb(255, 195, 43);
+}
+
+.block-1{
+    text-align: center;
+}
+
+.block-1 h1{
+    color: white;
+    margin-top: 50px;
+    font-size: 4.2em;
+    font-weight: bold;
+} 
+
+.row{
+    margin-top: 7%;
+    padding: 20px;
+}
+
+.col-lg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid rgb(133, 132, 132);
+}
+
+.col-lg i{
+    color: rgb(255, 195, 43);
+    font-size: 30px;
+}
+.col-lg:hover{
+    border: 1px solid rgb(255, 195, 43);
+}
+
+
+
+/* mon barre de menu et mon section 1 est terminer */
+
+
+
+
+.block-2{
+    margin-top: 12%;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.left p{
+   
+    font-size: 16px;
+}
+
+.scroll-container{
+    margin-top: 30px;
+    
+}
+
+.scroll-container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    list-style-type: none;
+    overflow: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+    
+}
+.scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.right p{
+    font-size: 16px;
+}
+.right strong{
+    font-size: 20px;
+}
+
+.right .groupe{
+    display: flex;
+    gap: 20px;
+}
+
+.icone{
+    font-size: 50px;
+}
+/* fin de mon section 2 */
+
+
+.trait{
+    width: 15%;
+    height: 2px;
+    background-color: rgb(255, 195, 43);
+}
+
+
+.row .icone2{
+    text-align: center;
+    font-size: 60px;
+    color: gold;
+}
+.row a{
+   text-decoration: none;
+   color: black;
+}
+
+.row P{
+    font-size: 12px;
+  
+}
+.row h5{
+    font-weight: bold;
+   text-align: center;
+}
+
+.groupe1:hover {
+    box-shadow: 10px 0px 40px 0px rgb(246, 234, 170);
+    transition: transform 0.8s;
+    transform: scale(1.04);
+}
+.BOC{
+    background-image: url(image/image11.png);
+    margin: auto;
+    padding: 7%;
+}
+
+.BOUTON button{
+    background-color: rgb(254, 248, 248, 0.0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+.BOUTON button:hover{
+    background-color:  rgb(255, 195, 43);
+    border: none;
+    color: black;
+}
+/* fin de mon section 3 */
+
+
+
+.nav-link{
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color:  rgb(255, 195, 43);
+
+} 
+.photo-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    gap: 20px;
+    
+}
+
+.photo-grid img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.photo-grid img:hover{
+    padding: 2px 5px 4px;
+    box-shadow: 0px 0px 10px 0px;
+}
+
+.photo1{
+    grid-row: span 2;
+    height: 100%;
+}
+.photo5{
+    grid-row: span 3;
+    height: 100%;
+}
+.photo6{
+    grid-column: span 2;
+    height: 100%;
+}
+ .photo8{
+   grid-row: span 2;
+   height: 100%;
+} 
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+.righT1 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.right1 .h-25{
+    font-size: 20px;
+}
+
+
+.carousel-item{
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding: 40px;
+}
+.carousel-item img{
+    text-align: center;
+    width: 10%;
+    height: 120px;
+    border-radius: 70px;
+    margin: 5% 1% 0%;
+    object-fit: cover;
+ }
+
+
+ .button{
+    border: 2px solid;
+    border-radius: 10px;
+    height: 20%;
+ }
+
+ 
+
+
+ /* fin de mon section 4 */
+
+ .profil img{
+    border-radius: 10px 10px 0px 0px;
+    height: 300px;
+    object-fit: cover;
+ }
+ .text-start{
+    border-radius: 0px 0px 10px 10px;
+    background-color: white;
+    box-shadow: 1px  1px  1px  0px gainsboro;
+ }
+/* fin de mon section 5 */
+
+
+
+.CAN1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+
+
+
+
+footer{
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    padding: 10px;
+}
+ .footer{
+   display: flex;
+   justify-content: space-around;
+    width: 100%;
+    padding-top: 5%;
+    flex-wrap: wrap;
+ }
+
+
+
+ .footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+    padding: 20px;
+    
+ }
+
+ .footer ul i{
+    font-size: 10px;
+    color: rgb(255, 195, 43);
+    font-weight: lighter;
+ }
+.footer a{
+    text-decoration: none;
+    color: gray;
+  
+    
+}
+.footer a:hover{
+    
+    color:  rgb(255, 195, 43);
+}
+
+.GP p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icone3{
+    
+    display: flex;
+    gap: 7%;
+}
+.icone3 i{
+    background-color: rgb(43, 43, 43);
+    padding: 12px;
+    border-radius: 5px;
+}
+.icone3 i:hover{
+    background-color: rgb(255, 195, 43);
+}
+
+input{
+    padding: 10px;
+    outline: none;
+    width: 60%;
+    background-color: black;
+    border: 1px solid rgb(128, 127, 127);
+}
+.bouton1{
+    background-color: rgb(255, 195, 43);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    width: 40%;
+}
+
+.bouton1:hover{
+   background-color: rgb(242, 176, 9);
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:930px) {
+
+    body{
+        
+        background-image: url(image/image5.png);
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+    .row{
+        margin-top: 7px;
+        padding: 80px;
+    }
+    .Our-Newsletter{
+        
+    }
+
+    input{
+        width: 100%;
+        
+    }
+    .bouton1{
+        background-color: rgb(255, 195, 43);
+        border: none;
+        outline: none;
+        color: white;
+        padding: 10px;
+        width: 40%;
+    }
+    
+   
+    
+    }
+
+    @media only screen and (max-width:950px) {
+
+        body{
+            
+            background-image: url(image/image5.png);
+            background-repeat: no-repeat;
+            background-size: 200%;
+        }
+        .row{
+            margin-top: 7px;
+            padding: 80px;
+        }
+        
+        }
+
+        @media only screen and (max-width:770px) {
+
+            body{
+                
+                background-image: url(image/image5.png);
+                background-repeat: no-repeat;
+                background-size: 700%;
+            }
+            .row{
+                margin-top: 7px;
+                padding: 100px;
+            }
+            
+            }
+    
